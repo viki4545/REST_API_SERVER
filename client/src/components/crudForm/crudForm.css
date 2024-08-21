@@ -1,0 +1,43 @@
+.crud-form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.crud-form h3 {
+  margin-bottom: 15px;
+}
+
+.crud-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.crud-form input,
+.crud-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.crud-form button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.crud-form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+.crud-form button[type="button"] {
+  background-color: #6c757d;
+  color: white;
+}
